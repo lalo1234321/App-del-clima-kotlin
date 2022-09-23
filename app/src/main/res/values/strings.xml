@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App Clima Kotlin</string>
+    <string name="app_name">Clima</string>
     <string name="texto_grados">0°</string>
     <string name="texto_estado">Estado de México</string>
     <string name="texto_estatus">Caluroso</string>

@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="@string/texto_bienvenido"
-        android:textColor="#FFFCFC" />
+        android:textColor="#FFFCFC"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/bMexico"
