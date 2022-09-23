@@ -1,5 +1,6 @@
 package com.example.appclimakotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,12 +13,16 @@ class Ciudades : AppCompatActivity() {
         setContentView(R.layout.activity_ciudades)
         var bMexico = findViewById<Button>(R.id.bMexico)
         var bBerlin = findViewById<Button>(R.id.bBerlin)
-
+        val TAG = "com.example.appclimakotlin.Ciudades"
         bMexico.setOnClickListener(View.OnClickListener {
-            Toast.makeText(this, "Ciudad de México", Toast.LENGTH_SHORT).show()
+            var intent = Intent(this, MainActivity::class.java)
+            intent.putExtra(TAG, "ciudad-mexico")
+            startActivity(intent)
         })
         bBerlin.setOnClickListener(View.OnClickListener {
-            Toast.makeText(this, "Ciudad de Berlin", Toast.LENGTH_SHORT).show()
+            var intent = Intent(this, MainActivity::class.java)
+            intent.putExtra(TAG, "ciudad-berlin")
+            startActivity(intent)
         })
     }
 }
