@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Clima Kotlin</string>
+    <string name="texto_grados">0°</string>
+    <string name="texto_estado">Estado de México</string>
+    <string name="texto_estatus">Caluroso</string>
+    <string name="texto_bienvenido">Bienvenido a la app del clima.</string>
+    <string name="texto_boton_ciudad_mexico">Clima de la Ciudad de México</string>
+    <string name="texto_boton_ciudad_berlin">Clima de la Ciudad de Berlin</string>
+</resources>
