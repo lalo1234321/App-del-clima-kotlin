@@ -30,9 +30,12 @@ class Ciudades : AppCompatActivity() {
             startActivity(intent)
         })
 
+        //24642c88af6ab928c94363e56632a1fd this is my api key for openWeather
+
         bValidateNetWork.setOnClickListener{
             if( Network.validateNetwork(this) ) {
-                Toast.makeText(this, "Hay conexión", Toast.LENGTH_SHORT).show()
+
+                httpRequestVolley("https://api.openweathermap.org/data/2.5/weather?id=3530597&appid=24642c88af6ab928c94363e56632a1fd")
             }else {
                 Toast.makeText(this, "No hay red", Toast.LENGTH_SHORT).show()
             }
