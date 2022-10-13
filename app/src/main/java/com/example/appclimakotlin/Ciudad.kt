@@ -1,13 +1,13 @@
 package com.example.appclimakotlin
 
-class Ciudad( name:String, weather: ArrayList<Weather>, estatus:String ) {
+class Ciudad( name:String, weather: ArrayList<Weather>, main:Main ) {
     var name:String = ""
     var weather:ArrayList<Weather>? = null
-    var estatus:String = ""
+    var main:Main? = null
 
     init {
         this.name = name
         this.weather = weather
-        this.estatus = estatus
+        this.main = main
     }
 }

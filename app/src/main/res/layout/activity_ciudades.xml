@@ -33,5 +33,5 @@
         android:id="@+id/bNetworkValidator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Validar red" />
+        android:text="Extraer data de api en Node" />
 </LinearLayout>
